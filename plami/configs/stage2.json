@@ -1,0 +1,7 @@
+[
+    {
+        "type": "data type",
+        "ann_file": "annotation path",
+        "img_prefix": "image path"
+    }
+]
