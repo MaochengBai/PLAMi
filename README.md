@@ -5,6 +5,11 @@
     <img src="./assets/framework.png" width="800px">
 </div>
 
+## Model Overview
+
+PLAMi (Pixel-Level Analysis in Medical Imaging) precisely aligns image and text data through Visual Instruction Tuning technology, significantly enhancing the accuracy of medical image analysis. This framework incorporates a specialized visual encoder and a pixel-level regional feature extractor, both tailored for medical imaging, to capture and deeply analyze subtle features within images. PLAMi not only improves diagnostic accuracy but also provides detailed visual and textual analysis when handling complex medical images, offering robust support for clinical diagnosis.
+
+
 ## Installation
 
 Clone the repository and set up the environment with all necessary packages using these commands:
