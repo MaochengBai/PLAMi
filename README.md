@@ -27,6 +27,21 @@ cd demo
 python app.py 
 ```
 
+## Training
+
+### Stage 1: Image-Text Biomedical Concept Feature Alignment
+Utilize the LLaVA training approach to train text-image alignment projectors and refine the `mm_projector`. This stage does not introduce a feature extractor.
+
+### Stage 2: Regional Feature-Text Alignment
+- Set `model_name_or_path` to the path of `Mistral-7B-Instruct-v0.2` in `stage2.sh`.
+- Set `pretrain_mm_mlp_adapter` to the path of `mm_projector` in `stage2.sh`.
+- Run `sh scripts/stage2.sh`.
+
+### Stage 3: End-to-End Fine-Tuning
+- Set `model_name_or_path` to the path of `stage2 checkpoint` in `stage2.sh`.
+- Set `vision_tower` to the path of `Convnext-large-CLIP-model` in `stage2.sh`.
+- Run `sh scripts/stage3.sh`.
+
 
 ## Data
 
