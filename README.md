@@ -19,6 +19,14 @@ pip install -e .
 pip install -e ".[train]"
 pip install flash-attn --no-build-isolation
 ```
+## Demo
+
+To run the demo, navigate to the demo directory and execute app.py. Before starting, ensure you have set the model_path for the model, data_folder for the image data, json_file for the image instructions, and description_type to specify the description format in app.py. Make sure all parameters are correctly configured to match your setup.
+```
+cd demo
+python app.py 
+```
+
 
 ## Data
 
