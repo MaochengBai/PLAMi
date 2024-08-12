@@ -1,6 +1,8 @@
 
-# PLAMi Framework
+# Enhancing Pixel-Level Analysis in Medical Imaging through Visual Instruction Tuning: Introducing PLAMi
 
+
+## PLAMi Framework
 <div align="center">
     <img src="./assets/framework.png" width="800px">
 </div>
