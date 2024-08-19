@@ -49,7 +49,7 @@ Utilize the LLaVA training approach to train text-image alignment projectors and
 
 ### Stage 3: End-to-End Fine-Tuning
 - Set `model_name_or_path` to the path of `stage2 checkpoint` in `stage2.sh`.
-- Set `vision_tower` to the path of `Convnext-large-CLIP-model` in `stage2.sh`.
+- Set `vision_tower` to the path of `BioMedCLIP` in `stage2.sh`.
 - Run `sh scripts/stage3.sh`.
 
 
